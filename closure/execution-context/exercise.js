@@ -1,4 +1,4 @@
-// Create the execution context flow of the this function
+  // Create the execution context flow of the this function
 
 var counter = (function() {
   var privateCounter = 0;
@@ -18,9 +18,9 @@ var counter = (function() {
   };
 })();
 
-counter.value();
+counter.value(); 
 counter.increment();
 counter.increment();
 counter.value();
 counter.decrement();
-counter.value();
+counter.value(); 
